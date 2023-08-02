@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<br><h2>hello, what is your name?</h2> 
+
+<input id= "userInput"><br><br>
+
+<button onclick="myFunction()">submit</button> 
+
+<h3 id="outputTxt"></h3>
+ <h4 id="outputTxt2"></h4><br><br> 
+<h5 id "outputTx3"></h5>
+
+<style>
+ body {background-color: darkslategray; text-align: center; color: blanchedalmond}
+</style>
+
+<script>
+function myFunction() {
+let userInput = document .querySelector ("#userInput") ;
+let outputTxt = document .querySelector ("#outputTxt");
+
+outputTxt. innerHTML = "Welcome," + userInput.value;
+outputTxt2. innerHTML = "we've been expecting you. "
+outputTxt3.innerHTML = "btw you're a monkey"
+}
+</script>
+
+</body>
+</html> 
